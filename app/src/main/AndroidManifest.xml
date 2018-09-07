@@ -21,6 +21,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".ActivityB"
+            android:label="@string/title_activity_activity_b" >
+        </activity>
+        <activity
+            android:name=".ActivityC"
+            android:label="@string/title_activity_activity_c" >
+        </activity>
+        <activity
+            android:name=".DialogActivity"
+            android:label="@string/title_activity_dialog" >
+        </activity>
+
     </application>
 
 </manifest>
